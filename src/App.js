@@ -1,24 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-
+import AppLayout from './layouts/app-layout';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className='text-4xl'>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p className="text-9xl">The quick brown fox ...</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppLayout/>
     </div>
   );
 }
